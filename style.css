@@ -1,0 +1,46 @@
+:root
+{
+    --time-duration:9s;
+}
+body {
+    margin: 0px;
+}
+body::-webkit-scrollbar
+{
+    overflow:hidden;
+    display:none;
+}
+h3
+{
+    margin:0px;
+}
+
+.rod{
+    position: absolute;
+    background-color: rgb(220, 20, 203);
+	border: 2px solid black;
+    width: 20vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 5vh;
+    padding:5px;
+    text-align: center;
+    left:42%
+}
+#rod-one {
+	top: 0%;
+    
+}
+#rod-two {
+	bottom: 0%;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    border-radius: 50%;
+    background-image:radial-gradient(rgb(2, 0, 128) 0%,black 221%);
+    box-sizing: border-box;
+    bottom:2.25rem;
+    left:50%
+}
