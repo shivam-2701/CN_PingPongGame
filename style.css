@@ -24,11 +24,9 @@ h3 {
   text-align: center;
 }
 #rod-one {
-  top: 0%;
+  top: 0;
 }
-#rod-two {
-  bottom: 0%;
-}
+
 .ball {
   height: 50px;
   width: 50px;
